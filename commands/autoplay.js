@@ -3,7 +3,7 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
   name: "autoplay",
-  description: "Chuyển đổi chế độ tự động phát của hàng đợi.",
+  description: "Chuyển đổi tự động phát của hàng đợi.",
   options: [],
   permissions: "0x0000000000000800",
   run: async (client, interaction) => {
