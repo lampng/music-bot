@@ -1,11 +1,11 @@
 module.exports = {
-    TOKEN: 'ODk4NDQwMDY5NjUwNzMxMDUx.GAdsox.-Qa3n4Z_QgFYE2XRBPigrKzQVtsV4B0lLJATNk',
+    TOKEN: 'ODk4NDQwMDY5NjUwNzMxMDUx.G60EvF.IStuqWM3o2d-vxoq8_uX2E9GaYI2rWdxyMV4qg',
     ownerID: ['1004206704994566164', ''],
     botInvite: '',
     supportServer: '',
     mongodbURL:
         'mongodb+srv://lampng:vhoOvRTkwH8oWxst@nodejs-server.omzznkp.mongodb.net/BestBot?retryWrites=true&w=majority',
-    status: '𝓹𝓱𝓵𝓪𝓶 Music',
+    status: '𝑴𝒖𝒔𝒊𝒄 𝒐𝒇 𝑮𝒉𝒐𝒔𝒕',
     commandsDir: './commands',
     language: 'en',
     embedColor: '00fbff',

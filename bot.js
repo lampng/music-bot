@@ -8,7 +8,7 @@ const { printWatermark } = require('./util/pw');
 const config = require("./config.js");
 const fs = require("fs");
 const path = require('path');
-
+require('dotenv').config();
 const client = new Client({
   partials: [
     Partials.Channel, 
@@ -82,8 +82,8 @@ fs.readdir(config.commandsDir, (err, files) => {
 
 
 
-if (config.TOKEN || process.env.TOKEN) {
-  client.login(config.TOKEN || process.env.TOKEN).catch((e) => {
+if (process.env.TOKEN) {
+  client.login(process.env.TOKEN).catch((e) => {
     console.log('Lỗi TOKEN❌❌');
   });
 } else {
