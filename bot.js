@@ -83,7 +83,7 @@ fs.readdir(config.commandsDir, (err, files) => {
 
 
 if (process.env.TOKEN) {
-  client.login(process.env.TOKEN).catch((e) => {
+  client.login("ODk4NDQwMDY5NjUwNzMxMDUx.GhkErB.FC40v58_byoNbFvZyuInIyDpuHk8SMDkCEOdQE").catch((e) => {
     console.log('Lỗi TOKEN❌❌');
   });
 } else {
@@ -112,7 +112,7 @@ const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
   const imagePath = path.join(__dirname, 'index.html');
-  res.sendFile(imagePath);
+  res.send("Alive")
 });
 app.listen(port, () => console.log('\x1b[36m%s\x1b[0m', `|    🔗 Cùng lắng nghe 𝓹𝓱𝓵𝓪𝓶 Music: ${port}`));
 printWatermark();
