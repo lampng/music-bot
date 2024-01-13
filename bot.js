@@ -83,7 +83,7 @@ fs.readdir(config.commandsDir, (err, files) => {
 
 
 if (process.env.TOKEN) {
-  client.login("ODk4NDQwMDY5NjUwNzMxMDUx.GhkErB.FC40v58_byoNbFvZyuInIyDpuHk8SMDkCEOdQE").catch((e) => {
+  client.login(process.env.TOKEN).catch((e) => {
     console.log('Lỗi TOKEN❌❌');
   });
 } else {
